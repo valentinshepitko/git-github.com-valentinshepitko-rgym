@@ -12,6 +12,11 @@
     max-width: 1600px;
     width: 100%;
 
+    @include breakpoint('xs'){
+        width: 50%;
+        margin: 0 auto;
+    }
+
     @include breakpoint('xl'){
         width: 50%;
         margin: 0 auto;
@@ -22,6 +27,13 @@
 
     @include breakpoint('xl'){
         padding-bottom: 100px;
+    }
+}
+
+.personal-image{
+
+    @include breakpoint('xs'){
+        max-width: 350px;
     }
 }
 
