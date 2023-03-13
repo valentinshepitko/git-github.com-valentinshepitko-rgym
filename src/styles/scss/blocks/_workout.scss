@@ -1,0 +1,57 @@
+.workout{
+    margin-bottom: 200px;
+}
+
+.container-workout{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.workout-image-holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    @include breakpoint('md'){
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+.workout-image-wrapper{
+    
+
+    @include breakpoint('xxxl'){
+        max-width: 280px;
+    }
+
+    @include breakpoint('xxl'){
+        max-width: 220px;
+    }
+
+    @include breakpoint('xl'){
+        max-width: 160px;
+    }
+}
+
+
+.workout-image-wrapper:nth-child(even){
+    padding-top: 80px;
+}
+
+.workout-image{
+
+    
+    @include breakpoint('xxxl'){
+        max-width: 280px;
+    }
+
+    @include breakpoint('xxl'){
+        max-width: 220px;
+    }
+
+    @include breakpoint('xl'){
+        max-width: 160px;
+    }
+}

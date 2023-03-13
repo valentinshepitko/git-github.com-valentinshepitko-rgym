@@ -1,0 +1,42 @@
+.subscribe{
+   background-image: url("../../../../src/images/subscribe-background.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   padding-top: 235px;
+   padding-bottom: 180px;
+}
+
+.subscribe-title{
+    margin-bottom: 16px;
+}
+.subscribe-text{
+    margin-bottom: 38px;
+}
+
+.subscribe-input{
+    max-width: 100%;
+    width: 402px; 
+    height: 60px;
+    max-height: 100%; 
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    color: white;
+}
+
+.subscribe-input::placeholder{
+    text-align: center;
+}
+
+.subscribe-button{
+   
+    padding: 17px 175px;
+}
+
+.image-section{
+    display: grid;
+    grid-template-rows: (2,1fr);
+}
+
+.form-holder{
+    margin-bottom: 16px;
+}

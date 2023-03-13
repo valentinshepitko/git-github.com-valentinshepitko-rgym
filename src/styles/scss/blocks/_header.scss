@@ -1,0 +1,130 @@
+.header{
+    background-image: url("../../..../../images/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.header__container{
+    max-width: 1295px;
+}
+
+.navbar{
+    padding-top: 20px;
+}
+
+.custom-navbar {
+    background-color: transparent !important;
+  }
+
+.navbar-nav{
+    gap: 60px;
+
+    @include breakpoint ('lg'){
+      padding-top: 100px;
+    }
+ }
+
+ .nav-item{
+   
+
+   @include breakpoint ('lg'){
+     text-align: center;
+   }
+}
+
+.nav-link{
+    color: white;
+ }
+
+ .nav-link:hover{
+   color: red;
+   transition: ease-in-out 0.3s;
+} 
+ 
+.header-contact{
+    border-radius: 0;
+    padding: 9px 24px;
+ }
+
+.navbar-text{
+    color: white;
+    position: relative;
+ }
+
+.navbar-text::before{
+   position: absolute;
+   content: '';
+   background-image: url('../../../../src/images/time.svg');
+   background-repeat:no-repeat;
+   width: 20px;
+   height: 20px;
+   left: -25px;
+   top: 10px;
+}
+
+.header-work-hours{
+
+   @include breakpoint ('sm'){
+      display: none;
+   }
+}
+
+.navbar-toggler{
+   background-color: white;
+ }
+
+.hero__content{
+   padding-top: 246px;
+   padding-bottom: 233px;
+   padding-left: 160px;
+   position: relative;
+}
+
+.hero__content::before{
+   position: absolute;
+   content: '';
+   background-image:url('../../../../src/images/red-line.svg');
+   background-repeat:no-repeat;
+   width: 132px;
+   height: 2px;
+   left: 15px;
+   top: 265px;
+}
+
+.hero__title{
+   color: white;
+   font-size: 60px;
+   max-width: 460px;
+   padding-bottom: 34px;
+
+   @include breakpoint ('md'){
+      font-size: 40px;
+      max-width: 280px;
+   }
+}
+
+.hero__button{
+   border-radius: 0;
+   margin-right: 20px;
+}
+
+.hero__social{
+   position: absolute;
+   right: 0px;
+   top: 280px;
+
+   @include breakpoint ('md'){
+      display: none;
+   }
+}
+
+.hero__social-link{
+   display: block;
+   margin-bottom: 48px;
+}
+
+.hero__social-link:last-child{
+   margin-bottom: 0;
+}

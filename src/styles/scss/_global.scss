@@ -1,0 +1,33 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color:black;
+  color: white;
+}
+
+h1, h2 {
+    margin: 0;
+    opacity: 75%;
+  }
+
+  
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+a {
+    text-decoration: none;
+    opacity: 75%;
+  } 
+
+p{
+  opacity: 75%;
+}  

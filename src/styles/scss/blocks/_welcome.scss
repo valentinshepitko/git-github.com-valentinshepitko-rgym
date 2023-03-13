@@ -1,0 +1,42 @@
+.welcome {
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.welcome-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.welcome-image-low{
+    margin-top: 160px;
+}
+.welcome-content {
+    padding-top: 40px;
+}
+.welcome-title {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 22px;
+}
+.welcome-text {
+    max-width: 388px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.welcome-block-top{
+    position: absolute;
+    right: 0;
+    top: -275px;
+}
+
+.welcome-block-bottom{
+    position: absolute;
+    bottom: -465px;
+}
+
